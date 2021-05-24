@@ -33,3 +33,5 @@ lazy val shared = crossProject(JSPlatform, JVMPlatform)
   .crossType(CrossType.Pure)
   .in(file("shared"))
   .jsConfigure(_.enablePlugins(ScalaJSWeb))
+
+Global / onLoad := (Global / onLoad).value.andThen(state => "project server" :: state)
