@@ -3,7 +3,7 @@ ________________________
 ```bash
 $ cd portfolio
 $ sbt
-[server] run
+[server] $ run
 ```
 Open http://localhost:9000
 
