@@ -4,6 +4,7 @@
 
 # Home page
 GET        /                                            @org.informalgo.portfolio.controllers.Application.index
+POST       /contact-us                                  @org.informalgo.portfolio.controllers.Application.contactUs
 
 # Prefix must match `play.assets.urlPrefix`
 #GET        /assets/*file                 controllers.Assets.at(file)
